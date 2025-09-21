@@ -7,9 +7,9 @@ function toggleRole() {
 }
 setInterval(toggleRole, 2000);
 
-menuBtn.addEventListener("click", function () {
-  menu.classList.toggle("hidden");
-});
+
+const menuBtn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
 
 menuBtn.addEventListener("click", () => {
   menu.classList.toggle("hidden");
